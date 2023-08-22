@@ -1,3 +1,5 @@
-print("Hello World")
-a = input()
-print(a)
+# print("Hello World")
+# a = input()
+# print(a)
+name = input("Як тебе звати ? ")
+print(f"Привіт, {name}, як справи")
