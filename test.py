@@ -1,8 +1,8 @@
 print("Hello New File")
 
-git commit -m "08.09.23"
-git add .
-git push
+# git commit -m "08.09.23"
+# git add .
+# git push
 
 
 # first = int(input("Enter the first integer: "))
