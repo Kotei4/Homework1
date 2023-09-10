@@ -1,19 +1,25 @@
-message = "Hello my little friends!"
-offset = 37
+message = input("Enter a message: ")
+offset = int(input("Enter the offset: "))
 encoded_message = ""
 
-i = 0
-while i < 100:
-    #if ch.isalpha():
-    #char = chr(i)
-    #print(char)
-    i += 1
-    break
-       # ch_char = char - ord("a")
-   #     ch_char = (ch_char + offset) % 26 
-    #    new_char = (ch_char + ord("a"))
-    #    encoded_message += chr(new_char)
- #   else:
-   #     encoded_message += ch
-#print(encoded_message)
-    print(char)
+for i in message:
+    
+    if ord(i) > 96 and ord(i) < 123:
+        pos = (ord(i) - 97)
+        pos = (pos + offset) % 26
+        new_char = chr(pos + 97)
+        encoded_message += new_char
+        
+    elif ord(i) > 64 and ord(i) < 91:
+        pos = (ord(i) - 64)
+        pos = (pos + offset) % 26
+        new_char = chr(pos + 64)
+        encoded_message += new_char
+    elif ord(i) == 32:
+        new_char = chr(32)
+        encoded_message += new_char
+        
+    elif ord(i) == 33:
+        new_char = chr(33)
+        encoded_message += new_char
+print(encoded_message)
