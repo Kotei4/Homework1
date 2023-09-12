@@ -15,6 +15,9 @@ while True:
         
         try:
             operand = int(char)
+            if result == None:
+                result = operand
+
         except ValueError:
             print(f"Type a number please")
         wait_for_number = False
