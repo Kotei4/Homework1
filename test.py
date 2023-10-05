@@ -1,58 +1,37 @@
-# x = 1
-# a = 6
-
-# def first():
-#     x = 2
-#     a = 3
-#     def second():
-#         global x 
-#         x = 5
-#         a = 8
-#         z = x + a
-        
-#         return(print(z))
-
-    
-#     second()
-#     z = x + a
-    
-#     return(print(z))
-
-# z = x + a
-# print(z)
-# result = first()
-# print(result)
+# first = {'F': 1, 'FX': 2, 'E': 3, 'D': 3, 'C': 4, 'B': 5, 'A': 5}
+# second = {'F': 'Unsatisfactorily',
+#           'FX': 'Unsatisfactorily',
+#           'E': 'Enough',
+#           'D': 'Satisfactorily',
+#           'C': 'Good',
+#           'B': 'Very good',
+#           'A': 'Perfectly'}
+#
+# print(first.keys())
+#
+# # def get_grade(key):
+#
+#
+# # def get_description(key):
 
 
-# def new_x():
-#     global x
-#     x=15
+# i = 0
+# s = 0
+# while i < 10:
+#     i = i + 1
+#     s = s + i
+#     if s > 15:
+#         break
+#     i = i + 1
+# print(i, s)
 
-# x = 10
-# print(x)
-# new_x()
-# print(x)
-# def calc(x=5):
-#     y = 4
-#     return x + y
-# print(cal
-# def  step(x, n):
-#         if n == 0:
-#             return 1
-#         return x * step(x, n-1)
 
-# print(step(3,7))
-
-# x = 10
-# def func():
-#     global x
-#     x = 15
-# print(x)
-# func()
-# print(x)
-
-def sum(x, y):
-    return x + y * y
-
-result = sum(3, 5)
-print(result)
+# i = 0
+# s = 0
+# while i < 10:
+#     i = i + 1
+#     s = s + i
+#     if s > 15:
+#         continue
+#     i = i + 1
+# print(i, s)
